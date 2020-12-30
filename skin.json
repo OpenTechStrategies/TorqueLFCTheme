@@ -1,0 +1,42 @@
+{
+    "name": "LFC",
+    "author": "Open Tech Strategies",
+    "url": "https://github.com/opentechstrategies/torque-lfc-theme",
+    "descriptionmsg": "",
+    "namemsg": "torque-lfc-skin",
+    "license-name": "AGPL-3.0+",
+    "type": "skin",
+    "requires": {
+        "MediaWiki": ">= 1.29.0"
+    },
+    "ValidSkinNames": {
+        "lfc": "LFC"
+    },
+    "AutoloadClasses": {
+        "SkinLFC": "LFC.skin.php",
+        "LFCTemplate": "LFCTemplate.php"
+    },
+    "MessagesDirs": {},
+    "ResourceModules": {
+        "skins.lfc": {
+            "targets": [
+                "desktop",
+                "mobile"
+            ],
+            "position": "top",
+            "styles": {
+                "lfc.less": {}
+            }
+        },
+        "skins.lfc.js": {
+            "scripts": [
+                "lfc.js"
+            ],
+            "position": "bottom"
+        }
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "",
+        "remoteSkinPath": "LFC"
+    }
+}
