@@ -1,6 +1,2 @@
-# Torque LFC Theme
-
-This is a MediaWiki skin for [Lever for
-Change](https://www.leverforchange.org/) Torque instances.  It is
-based loosely on the LFC web site and on their [Bold Solutions
-Network](https://solutions.leverforchange.org/).
+Please see https://code.librehq.com/ots/mediawiki/torque-lfc-theme for the latest version of this package.
+It is no longer hosted on GitHub. 
